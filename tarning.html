@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tärning</title>
+    <script language="javascript" type="text/javascript" src="script.js"></script>
+    <link href="DnDcss.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+   <div class="diceroll">
+    <div class = "butd20">
+      <button class="button" onClick="d20()">D20</button>
+    </div>
+    
+    <button class='button' onclick='d12()'>D12</button>
+    
+    <button class='button' onclick='d8()'>D8</button>
+    
+    <div class= "butd6">
+      <button class="button" onClick="d6()">D6</button>
+      <button class='button' onclick='d4()'>D4</button>
+      <select class="val" id="d6">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select>
+      
+    </div>
+    <div class="text">
+    <p class="text1" id = "dice20">0</p>
+    <p class="text2" id = "dice6">0</p>
+    <p class='text3' id='dice4'>0</p>
+    <p class='text4' id='dice12'>0</p>
+    <p class='text5' id='dice8'>0</p>
+    </div>
+</body>
+</html>
