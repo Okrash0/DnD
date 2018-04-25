@@ -163,4 +163,11 @@ function myFunction(){
     d20();
   }
   
+  if (key == 81){d12();}
+  else if (key == 87){d10();}
+  else if (key == 69){d8();}
+  else if (key == 82){d6();}
+  else if (key == 84){d4();}
+    
+  
 }
