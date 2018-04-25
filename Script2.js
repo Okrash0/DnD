@@ -144,3 +144,23 @@ function d4(){
 function closeTheme(){
   document.getElementById('change').style.display = 'none';
 }
+
+addEventListener("keydown", myFunction);
+
+function myFunction(){
+  key = event.keyCode;
+  rightKey = key-48;
+  //alert(key);
+  if (key > 48 && key < 58 ){
+    document.getElementById("amount").value = rightKey;
+  }
+  
+  else if (key == 48){
+    document.getElementById("amount").value = "10";
+  }
+  
+  else if (key == 13){
+    d20();
+  }
+  
+}
