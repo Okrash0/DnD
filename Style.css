@@ -149,7 +149,7 @@ body {
 }
 
 
-#log {
+#logD {
   position: fixed;
   text-decoration: none;
   font-size: 12px;
@@ -167,7 +167,7 @@ body {
   right: 4px;
 }
 
-#log:hover {
+#logD:hover {
   color: #FFFFFF;
   border-color: #FFFFFF;
 }
