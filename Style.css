@@ -148,3 +148,28 @@ body {
   color: #FFFFFF;
 }
 
+
+#log {
+  position: fixed;
+  text-decoration: none;
+  font-size: 12px;
+  text-align: center;
+  
+  color: #575757;
+  box-sizing: content-box;
+  width: 50px;
+  height: auto;
+  padding: 10px 0px 8px 0px;
+  border-radius: 28px;
+  border: solid 1px #575757;
+  
+  bottom: 4px;
+  right: 4px;
+}
+
+#log:hover {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+
