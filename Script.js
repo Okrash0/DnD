@@ -168,6 +168,20 @@ function myFunction(){
   else if (key == 69){d8();}
   else if (key == 82){d6();}
   else if (key == 84){d4();}
-    
+   
+  if (key == 32){
+    document.getElementById("dice20").innerHTML = 0;
+    document.getElementById("dice12").innerHTML = 0;
+    document.getElementById("dice10").innerHTML = 0;
+    document.getElementById("dice8").innerHTML = 0;
+    document.getElementById("dice6").innerHTML = 0;
+    document.getElementById("dice4").innerHTML = 0;
+  }
+  
+  if (event.shiftKey && key == 221){
+    document.body.style.background = '#FF69B4';
+    document.getElementByClassName("butt").style.background = '#FF69B4';
+  }
+   
   
 }
