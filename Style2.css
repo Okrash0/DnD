@@ -29,7 +29,7 @@ body {
   text-align: center;
   font-size: 25px;
   color: #adadad;
-  background-color: #FFFFFF;
+  background-color: transparent;
 }
 
 .butt:hover {
@@ -59,7 +59,7 @@ body {
   height: auto;
   padding: 12px 20px 10px 20px;
   border-radius: 28px;
-  border: solid 2px #FFFFFF;
+  border: solid 2px transparent;
 }
 
 
@@ -79,7 +79,7 @@ body {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-  background-color: #FFFFFF;
+  background-color: transparent;
   color: #adadad;
   border-color: #adadad;
 }
