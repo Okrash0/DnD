@@ -11,12 +11,12 @@ function d20(){
     
     else if (arr20[i] == 1) {
       document.getElementById("dice20").style.color = "red";
-      document.getElementById("butt20").style.background = "#0A0A0A";
+      document.getElementById("butt20").style.background = "transparent";
     }
     
     else {
       document.getElementById("dice20").style.color = "#FFFFFF";
-      document.getElementById("butt20").style.background = "#0A0A0A";
+      document.getElementById("butt20").style.background = "transparent";
     }
     
   }
