@@ -180,7 +180,6 @@ function myFunction(){
   
   if (event.shiftKey && key == 221){
     document.body.style.background = '#FF69B4';
-    document.getElementByClassName("butt").style.background = '#FF69B4';
   }
    
   if (event.shiftKey && key == 222){
