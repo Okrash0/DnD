@@ -182,6 +182,9 @@ function myFunction(){
     document.body.style.background = '#FF69B4';
     document.getElementByClassName("butt").style.background = '#FF69B4';
   }
-     
+  
+    if (event.shiftKey && key == 222){
+      window.open('https://okrash0.github.io/Trex/index.html');
+    }
   
 }
