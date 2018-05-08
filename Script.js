@@ -184,6 +184,6 @@ function myFunction(){
   }
    
   if (event.shiftKey && key === 222){
-    window.open(https://okrash0.github.io/Trex/index.html);
+    window.open('https://okrash0.github.io/Trex/index.html');
   }
 }
