@@ -1,3 +1,5 @@
+var audio = new Audio('Mushroomparty2k18.mp3');
+
 function d20(){
   var arr20 = [];
   var ant20 = document.getElementById('amount').value;
@@ -7,6 +9,7 @@ function d20(){
     
     if (arr20[i] == 20) {
       document.getElementById("butt20").style.background = "-webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet";
+      audio.play();
     }
     
     else if (arr20[i] == 1) {
@@ -176,6 +179,8 @@ function myFunction(){
     document.getElementById("dice8").innerHTML = 0;
     document.getElementById("dice6").innerHTML = 0;
     document.getElementById("dice4").innerHTML = 0;
+    audio.pause();
+    audio.currentTime = 0;
   }
   
   if (event.shiftKey && key == 221){
