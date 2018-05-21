@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mhush</title>
+  </head>
+  <body>
+  <button onclick='o()'>kör</button>
+  <script>
+  funciton o(){
+  var audio = new Audio('Mushroomparty2k18.mp3');
+  audio.play();
+  }
+  </script>
+  </body>
+</html>
