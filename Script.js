@@ -179,6 +179,8 @@ function myFunction(){
     document.getElementById("dice8").innerHTML = 0;
     document.getElementById("dice6").innerHTML = 0;
     document.getElementById("dice4").innerHTML = 0;
+    audio.pause();
+    audio.currentTime = 0;
   }
   
   if (event.shiftKey && key == 221){
